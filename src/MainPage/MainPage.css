@@ -1,0 +1,42 @@
+.main__div {
+    margin: 0;
+    position: sticky;
+    margin-top: 23%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 150px;
+    margin: 0%;
+    color: black;
+}
+
+
+
+.btn__ {
+    display: inline-block;  
+    border-radius: 25px;  
+    background-color: transparent;  
+    border: none;  
+    color: rgb(0, 0, 0);  
+    text-align: center;   
+    padding: 20px;  
+    transition: all 0.5s;  
+    cursor: pointer;  
+    text-decoration: none;
+    margin: 50px;
+}
+
+.active, .btn__:hover {
+    text-decoration-line: none;
+    background: rgb(161, 160, 160);
+    color: white;
+}
+
+.quote {
+    text-align: center;
+    font-family: cursive;
+}
